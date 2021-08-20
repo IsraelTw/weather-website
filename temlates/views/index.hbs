@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div class="main-content">
+    {{>header}}
+
+    <form>
+      <input type="text" id="address-input" placeholder="Location">
+      <button >Search</button>
+    </form>
+
+    <p id="massage-1"></p>
+    <p id="massage-2"></p>
+
+    <p>{{address}}</p>
+  </div>
+  {{>footer}}
+
+  <script src="/js/app.js"></script>
+</body>
+
+</html>
